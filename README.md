@@ -1,4 +1,4 @@
-```
+```python
 class NTA:
     def __init__(self, declaration="", system="", templates=None):
         self.declaration = declaration
