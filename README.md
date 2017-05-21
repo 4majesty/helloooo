@@ -1,5 +1,4 @@
 ```
----
 Algorithm init()
 ---
 Input: init constraints
