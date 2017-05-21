@@ -1,20 +1,15 @@
 ```
-Algorithm init()
----
-Input: init constraints
-Output: Dinit
-1:	for j0 to n do
+Algorithm floyds()
+Input: Dinit
+Output: Ddone
+1:	for k0 to n do
 2:		for i0 to n do
-3:			if i=0 then
-4:				D0j(0, )
-5: 			else if j=0 then
-6: 				D0j(, )
-7:			else Di0(, )
-8:		end for
-9:	end for
-10:	for constraint in constraints do
-11:	Add constraint to Dinit
-12:	end for
-13:	return Dinit
+3:			for j=0 to n do
+4:				Dijmin(Dij, Dik+ Dkj)
+5: 			end for
+6: 		end for
+7:	end for
+8:	return Ddone
+
 
  ```
